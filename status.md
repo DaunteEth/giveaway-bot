@@ -16,6 +16,7 @@
 - [x] **Added runtime.txt to specify Python 3.11.10 for stability**
 - [x] **Resolved aiohttp PyLongObject ob_digit error**
 - [x] **Simplified deployment using Railway's automatic Python detection**
+- [x] **Fixed aiogram 3.13+ API breaking changes (DefaultBotProperties)**
 
 ✅ Проект giveaway-bot завершён и готов к Railway deployment! 
 
@@ -30,4 +31,5 @@
 - **python-dotenv**: unversioned → 1.0.1 (pinned for stability)
 - **telethon**: 1.34.0 (maintained, compatible)
 - **Added runtime.txt**: python-3.11.10 (stable version for deployment)
-- **Removed custom nixpacks.toml**: Using Railway's automatic Python detection 
+- **Removed custom nixpacks.toml**: Using Railway's automatic Python detection
+- **Updated Bot initialization**: Using DefaultBotProperties for aiogram 3.13+ compatibility 
